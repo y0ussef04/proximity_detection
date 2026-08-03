@@ -62,7 +62,7 @@ class TouchLockOverlayManager(
                 return true
             }
         }.apply {
-            orientation = VERTICAL
+            orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             setBackgroundColor(Color.argb(160, 0, 0, 0)) // ~63% translucent black
             isClickable = true
