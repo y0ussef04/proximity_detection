@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Touch Lock for Calls</string>
+    <string name="status_service_active">🟢 Touch Lock Active</string>
+    <string name="status_service_inactive">🔴 Touch Lock Service Inactive</string>
+    <string name="status_service_disabled">⏸️ Touch Lock Disabled</string>
+    
+    <string name="touch_lock_toggle">Touch Lock Feature</string>
+    <string name="lock_delay_label">Lock Activation Delay</string>
+    <string name="double_tap_to_unlock_label">Double-Tap to Unlock</string>
+    <string name="double_tap_description">Double-tap anywhere on the transparent lock overlay to instantly unlock call controls during a call.</string>
+    
+    <string name="delay_1_sec">1 second</string>
+    <string name="delay_2_sec">2 seconds</string>
+    <string name="delay_3_sec">3 seconds</string>
+    <string name="delay_5_sec">5 seconds</string>
+
+    <string name="permissions_header">Required Permissions</string>
+    <string name="overlay_perm_granted">🟢 Display over other apps: Granted</string>
+    <string name="overlay_perm_not_granted">🔴 Display over other apps: NOT Granted</string>
+    <string name="phone_perm_granted">🟢 Phone state permission: Granted</string>
+    <string name="phone_perm_not_granted">🔴 Phone state permission: NOT Granted</string>
+    <string name="notif_perm_granted">🟢 Notifications: Granted</string>
+    <string name="notif_perm_not_granted">🔴 Notifications: NOT Granted</string>
+    <string name="btn_grant_permissions">Grant Required Permissions</string>
+    
+    <string name="oppo_coloros_title">ColorOS / OPPO Compatibility Tip</string>
+    <string name="oppo_coloros_desc">To prevent ColorOS from stopping Touch Lock in background:\n1. Enable "Auto-launch" &amp; "Allow background activity"\n2. Set Battery Optimization to "Don\'t optimize"\n3. Lock app in Recent Apps screen</string>
+
+    <!-- Notification Strings -->
+    <string name="notification_channel_name">Touch Lock Call Service</string>
+    <string name="notification_title">Touch Lock Ready</string>
+    <string name="notification_text">Monitoring phone calls to lock screen automatically.</string>
+
+    <!-- Overlay Strings -->
+    <string name="overlay_locked_title">🔒 Touch Locked</string>
+    <string name="overlay_locked_subtitle">Double tap anywhere to unlock call UI</string>
+</resources>
